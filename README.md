@@ -12,17 +12,13 @@ The model is trained on a subset of Shakespearean text obtained from the TensorF
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/poetic-text-generator.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+   gh repo clone chmuhammadasim/AI-Poetic-Text-Generator-Using-RNNs
    ```
 
 ### Usage
-1. Run the `poetic_text_generator.py` script to train the model and generate poetic text.
+1. Run the `Model.py` script to train the model and generate poetic text.
    ```bash
-   python poetic_text_generator.py
+   python Model.py
    ```
 2. Adjust the hyperparameters in the script to customize the training process and the generated text:
    - `SEQ_LENGTH`: Length of input sequences for the LSTM model.
